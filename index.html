@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .code {
+            background-color: #eee;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        To jest mój pasek na dole
+    </div>
+</body>
+<header>
+    <h1>Moja Strona</h1>
+</header>
+
+<nav>
+    <a href="#home">Strona Główna</a>
+    <a href="#info">Informacje</a>
+    <a href="#gallery">Galeria</a>
+    <a href="#codes">Kody Rabatowe</a>
+</nav>
+
+<section id="home">
+    <h2>Strona Główna</h2>
+    <p>Witamy na mojej minimalistycznej stronie. Znajdziesz tu informacje o kodach rabatowych do wykorzystania w szpitalu psychiatrycznym w Choroszczy, galerię oraz inne interesujące treści.</p>
+</section>
+
+<section id="info">
+    <h2>Informacje</h2>
+    <p>Szpital psychiatryczny w Choroszczy oferuje specjalistyczną opiekę medyczną w zakresie zdrowia psychicznego. Skorzystaj z poniższych kodów rabatowych, aby uzyskać zniżki na usługi.</p>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Galeria</h2>
+    <img src="https://via.placeholder.com/100" alt="Zdjęcie 1">
+    <img src="https://via.placeholder.com/100" alt="Zdjęcie 2">
+    <img src="https://via.placeholder.com/100" alt="Zdjęcie 3">
+    <img src="https://via.placeholder.com/100" alt="Zdjęcie 4">
+</section>
+
+<section id="codes">
+    <h2>Kody Rabatowe</h2>
+    <div class="code">
+        <strong>Kod: PSYCHO10</strong> - 10% zniżki na pierwszą konsultację.
+    </div>
+    <div class="code">
+        <strong>Kod: TERAPIA15</strong> - 15% zniżki na terapię grupową.
+    </div>
+    <div class="code">
+        <strong>Kod: WIZYTA5</strong> - 5% zniżki na każdą kolejną wizytę.
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Moja Strona</p>
+</footer>
+
+</body>
+</html>
